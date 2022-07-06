@@ -1,0 +1,20 @@
+2022-07-06 08:10:35,828 :: setup_activity_logger :: 46 :: Created a logfile. Location: testfolder//2022_07_06-08_10_35_AM testlog.log
+2022-07-06 08:10:35,829 :: setup_activity_logger :: 47 :: Name (+ path) of the folder in which the output files will be stored, inserted by the user: testfolder
+2022-07-06 08:10:39,234 :: file_locations :: 69 :: The user inserted no file extension or another file extension than .lm: dy
+2022-07-06 08:10:45,051 :: file_locations :: 66 :: The user entered a non-existing file/filepath: dynamicc.lm
+2022-07-06 08:10:48,693 :: file_locations :: 71 :: Dynamic language model filename (+ path), inserted by the user: dynamic.lm
+2022-07-06 08:10:51,431 :: file_locations :: 90 :: UFED Report filename (+ path), inserted by the user: Report.xlsx
+2022-07-06 08:10:56,108 :: file_locations :: 109 :: Message filename (+ path), inserted by the user: test_bericht.txt
+2022-07-06 08:10:57,438 :: create_word_list :: 137 :: Created two dictionaries from the UFED report export file
+2022-07-06 08:10:57,438 :: seek_begin :: 160 :: Converting language model file to hex with binascii.hexlify...
+2022-07-06 08:10:57,439 :: seek_begin :: 169 :: Looking for beginning of the Trie...
+2022-07-06 08:10:57,439 :: seek_begin :: 171 :: Trie starts at offset: 0x31ad
+2022-07-06 08:10:57,439 :: parse_file :: 148 :: Created a file to write the word predictions to. Location: testfolder//2022_07_06-08_10_57_AM result_predict.txt
+2022-07-06 08:10:57,439 :: parse_file :: 149 :: Making the Trie, converting the index numbers to words and writing the to output file...
+2022-07-06 08:10:57,634 :: parse_file :: 152 :: Finished making the Trie and writing the Trie paths to the output file.
+2022-07-06 08:10:57,634 :: message_check :: 212 :: Created a file to write the matching words between the message and UFED report export file to. Location: testfolder//2022_07_06-08_10_57_AM result_message.txt
+2022-07-06 08:10:57,634 :: message_check :: 219 :: Adding matching words to the output file...
+2022-07-06 08:10:57,635 :: message_check :: 241 :: Defining the rate of the matching words...
+2022-07-06 08:10:57,640 :: define_result :: 250 :: The matching words rate = 50.0%
+2022-07-06 08:10:57,641 :: define_result :: 254 :: Writing the matching words rate to the output file.
+2022-07-06 08:10:57,642 :: <module> :: 267 :: Finished.

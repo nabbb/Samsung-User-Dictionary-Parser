@@ -1,0 +1,4 @@
+50.0% of the words in the message match with the words from the UFED report export file.
+
+153 is(11)
+112 een(11)
